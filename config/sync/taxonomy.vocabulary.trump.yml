@@ -1,0 +1,8 @@
+uuid: 0662aa24-0759-43e1-b761-3dcb369a207d
+langcode: en
+status: true
+dependencies: {  }
+name: Trump
+vid: trump
+description: 'Trump is a great man'
+weight: -8

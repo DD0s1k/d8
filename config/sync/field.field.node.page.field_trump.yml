@@ -1,0 +1,29 @@
+uuid: 7a740b76-8378-4941-be36-4354cc30444f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trump
+    - node.type.page
+    - taxonomy.vocabulary.trump
+id: node.page.field_trump
+field_name: field_trump
+entity_type: node
+bundle: page
+label: Trump
+description: 'President of US'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      trump: trump
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
